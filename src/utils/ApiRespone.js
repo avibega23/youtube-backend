@@ -6,6 +6,6 @@ class ApiResponse{
 		this.success = statusCode < 400
 	}
 }
-
+export {ApiResponse}
 
 // usage : new ApiResponse(400,data,message:"User sent successfully")

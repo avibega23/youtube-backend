@@ -84,4 +84,4 @@ userSchema.methods.generateAcessToken = async function () {
 }
 
 
-export const UserScehma = mongoose.Model("User", userSchema)
+export const User = mongoose.model("User", userSchema)
